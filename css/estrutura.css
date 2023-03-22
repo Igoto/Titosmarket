@@ -1,0 +1,179 @@
+body {
+margin:0;
+padding:0;
+text-align:center;
+font: 12px Arial;
+}
+a:hover{
+color: #D0B4D9;
+text-decoration: none;
+}
+
+a{
+color:#F05D43;
+text-decoration:none;
+}
+a:visited{
+color:#FF644A;
+text-decoration:none;
+}
+img{
+border-color: #0075A9;
+border: solid,thin;
+}
+#pagina {
+width: 910px;
+margin:0 auto;			
+padding: 0px;
+}
+
+#conteudo {
+width: 900px;
+float:left;			
+padding: 0px;
+}
+
+#logo {
+width:300px;
+float:left;
+}
+
+#cabe{
+width: 590px;
+height:111px;
+float:left;
+}
+
+#login{
+float:right;
+line-height: 2;
+}
+#suporte{
+width:900px;
+height:160px;
+margin-top:10px;
+margin-bottom:15px;
+}
+
+#painel{
+width:220px;
+float:right;
+font-size:10px;
+}
+
+#suporte2{
+width:905px;
+height:900px;
+float:left;
+margin-bottom:15px;
+}
+
+#controle{
+width:900px;
+}
+
+#menu{
+width: 770px;
+margin-left:60px;
+padding-bottom:5px;
+height:30px;
+float:left;
+font: 16px Arial;
+border-radius: 10px 5%;
+background-color:#EFE33C;
+}
+
+#link{
+border-right-style: groove;
+float:left;
+width:150px;
+text-align:center;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+#linkb{
+float:left;
+width:150px;
+text-align:center;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+#destaques{
+width:900px;
+height:240px;
+float: left;
+}
+
+#destaques ul, #destaques ul li{
+list-style: none;
+}
+
+#destaques ul, #destaques ul li, #destaques ul li img{
+margin: 0px;
+padding: 0px; 
+top:0px;
+border-radius: 10px 5%;
+
+}
+
+#destaques div{
+z-index: 100;
+position:absolute;
+
+}
+
+#destaques div a{
+background-color:#A34F46;
+height: 15px; 
+width: 15px;
+display: block; 
+float: center;
+padding-left:5px;
+padding-right:5px;
+margin-top:2px; 
+margin-left:870px;
+text-decoration: none; 
+border-radius: 10px 5%;
+}
+
+#destaques div a:hover, #destaques div a.activeSlide{
+color:#D9A232;
+}
+
+
+#formulario{
+width:900px;
+height:320px;
+font: 16px Arial;
+float:left;
+margin-top:15px;
+background-color:#F09F39;
+border-radius: 10px 5%;
+line-height: 1.8;
+}
+
+#centro{
+width:900px;
+height:640px;
+font: 16px Arial;
+float:left;
+margin-top:15px;
+background-color:#F09F39;
+border-radius: 10px 5%;
+line-height: 1.8;
+
+}
+
+
+#rodape{
+background-color:#52FFCA;
+width:870px;
+height:75px;
+font: 16px Arial;
+float:left;
+text-align:right;
+padding:15px;
+border-radius: 10px 5%;
+}
