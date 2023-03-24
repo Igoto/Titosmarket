@@ -19,7 +19,7 @@ if($_POST){
 
                 $_SESSION['usuario'] = $resultado[0]["usuario"];
 
-                echo "<script>alert('Login efetuado com sucesso.'); location.href='../admin.php';</script>";
+                echo "<script>alert('Login efetuado com sucesso.'); location.href='admin.php';</script>";
         
             }else{
 
