@@ -22,6 +22,9 @@
  </div>
  <div><a href = "cadastrar_categoria.php"><img src = "../img/categoria.png" height=85 width=85>Cadastrar categoria</a>
  </div>
+ <div><a href = "cadastrar_produto.php">
+	 <img src = "../img/produto.png" height=85 width=85>Cadastrar produto</a>
+ </div>
    </div> 
 				</div>
 

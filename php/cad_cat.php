@@ -14,9 +14,9 @@ if (($_POST)) {
     $inserir = mysqli_query($conexao, $query);
 
 if ($inserir) {
-    echo "<script>alert('Cadastro de categoria realizado com sucesso!'); location.href='../cadastro.html';</script>";
+    echo "<script>alert('Cadastro de categoria realizado com sucesso!'); location.href='admin.php';</script>";
 } else {
-    echo "<script>alert(Algo deu errado, volte mais tarde!'); location.href='../cadastro.html';</script>";
+    echo "<script>alert(Algo deu errado, volte mais tarde!'); location.href='cadastrar_categoria.php';</script>";
 }
 
 }else {

@@ -70,12 +70,10 @@
 		
 			
 			<div id="centro">
-		
+		<?php
 
-				<frameset rows="50%,50%">
-					<frame noresize="noresize" src="php/vitrineA.php"/>
-					<frame noresize="noresize" src="php/vitrineB.php"/>
-				</frameset>
+include 'php/vitrine.php'
+?>
 
 				</div>		
 				</div>
