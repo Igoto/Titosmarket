@@ -1,0 +1,5 @@
+id_pro,nome_pro,desc_pro,fk_id_cat,slug_pro,img_pro,preco_pro
+2,Picanha,"Melhor corte",1,picanha,https://feed.com.br/wp-content/uploads/2021/09/image284-800x800.jpg,89.99
+4,"Coca Cola 1L","Refrigerante de noz de cola",2,cocacola,https://images.tcdn.com.br/img/img_prod/948333/coca_cola_1l_771_1_5560e22160ce50164a3395ffced8a797.png,8.99
+5,"Salada Caesar","Salada tradicional",3,salada,"https://i5.walmartimages.com/asr/6e38c3c4-43b6-4088-a6c8-ab1967f10515.23233a7596a68f5a4da9c226917ccb64.png ",11.99
+6,"Maça 1Kg","Fruta típica",3,maca,"https://static.wixstatic.com/media/a3282e_fd05ac4f30a04c74bd2d2e8a3f1cdeff~mv2.png/v1/fit/w_500,h_500,q_90/file.png",7.99

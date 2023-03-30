@@ -8,9 +8,10 @@ if (($_POST)) {
     $desc = $_POST["desc"];
     $slug = $_POST["slug"];
     $link = $_POST["link"];
+    $preco = $_POST["preco"];
 
     $query = "INSERT INTO tbl_produtos
-            VALUES (NULL, '$nome', '$desc', '$cat','$slug', '$link')";
+            VALUES (NULL, '$nome', '$desc', '$cat','$slug', '$link', '$preco')";
 
     $inserir = mysqli_query($conexao, $query);
 
@@ -21,6 +22,6 @@ if ($inserir) {
 }
 
 }else {
-    header('Location: index.html');
+    header('Location: index.php');
 }
 ?>

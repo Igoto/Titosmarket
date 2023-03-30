@@ -44,6 +44,9 @@ include_once("../db/conexao.php");
 		
 				<div>Link (IMG):<font color = "red">*  </font>
 				<textarea name= "link" id = "id_link" rows="5" cols="30"> </textarea></div>
+       
+        <div>Preço:(R$)<font color = "red">*  </font>
+				<input type="text" id = "preco" name ="preco" size = 10></div>
 		
 <input type ="submit" name ="cadastrar_btn" value="Cadastrar"> 
   </form>

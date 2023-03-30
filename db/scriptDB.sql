@@ -31,7 +31,8 @@ fk_id_cat int,
 foreign key (fk_id_cat)
 REFERENCES tbl_categoria(id_cat),
 slug_pro varchar(15),
-img_pro varchar(255)
+img_pro varchar(255),
+preco_pro double
 )
 
 'Explicação Foreign Key é a chave estrangeira,
