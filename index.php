@@ -1,5 +1,7 @@
+<?php
+include_once("db/conexao.php");
+?>
 <html>
-
 <head>
   <title>Tito's Market</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -67,7 +69,29 @@
         </ul>
       </div>
       <div id="controle">
-        <div id="centro" style="display: flex; flex-wrap:wrap; gap: 25px; justify-content:center;">
+      <form name="selecionar_cat" action="index.php" method="POST">
+      <select name="filtro" id="filtro">    
+        <option value="1" selected = selected>Menor preço</option>
+        <option value="2">Maior preço</option>
+        <option value="3">A-Z</option>
+        <option value="3">Z-A</option>
+      </select>
+    <select name="categoria" id="categoria">    
+        <option value="0" selected = selected>Selecione uma categoria</option>
+    
+        <?php
+        $queryConsultLogin = "SELECT * FROM tbl_categoria";
+        $consulta = mysqli_query($conexao, $queryConsultLogin);
+        $resultado = mysqli_fetch_all($consulta, MYSQLI_ASSOC);
+    
+        foreach($resultado as $categoria){
+         echo "<option value='".$categoria['id_cat']."'>".$categoria['nome_cat']."</option>";
+        }
+        ?>
+    </select>
+    <input type ="submit" name ="OK_btn" value="OK"> 
+      </form> 
+      <div id="centro" style="display: flex; flex-wrap:wrap; gap: 25px; justify-content:center;">
           <?php
           include 'php/vitrine.php'
           ?>

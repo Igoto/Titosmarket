@@ -23,7 +23,7 @@ if($_POST){
         
             }else{
 
-                echo "<script>alert('Uhm... Temos algo de errado aqui! Verifique usuário e senha'); location.href='../index.php';</script>";
+                echo "<script>alert('Uhm... Temos algo de errado aqui! Verifique usuário e senha'); location.href='../index.html';</script>";
             
             }
 

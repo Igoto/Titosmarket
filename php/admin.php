@@ -13,7 +13,7 @@
 			<div id="centro">
 			<div><b>Painel de administração</b></div>
 			<div id="logo">
- <a href = "../index.php"><img src = "../img/logo_t.png"></a>
+ <a href = "../index.html"><img src = "../img/logo_t.png"></a>
 
 
  <div><a href = "deletar_usuario.php"><img src = "../img/usuario.png" height=85 width=85>Deletar usuário</a>
